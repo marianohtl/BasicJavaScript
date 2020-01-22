@@ -1,11 +1,12 @@
 # JsFirstSteps > exercícios de lógica com js html e css
 
 https://marianohtl.github.io/FirstStepsJS/
+https://github.com/marianohtl/BasicJavaScript/tree/FirstStepsJS
 
 
 CapturadeValoreFloatFuncao:
 
-https://marianohtl.github.io/FirstStepsJS/CapturadeValoreFloatFuncao/
+https://marianohtl.github.io/BasicJavaScript/tree/FirstStepsJS/CapturadeValoreFloatFuncao/
 
 
 CalcFLEX:
