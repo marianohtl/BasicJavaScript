@@ -1,0 +1,65 @@
+Parâmetros de Funções
+
+Podemos passar parametros de funções como tipos primitivos.
+Da mesma forma como conseguimos retornar arrays e objetos, podemos passar
+parametros como arrays e  objetos.
+
+Uma função recebendo array de argumento:
+
+> var arr = [1,2,3];
+undefined
+
+> function myFunction(arr){
+  return arg;
+}
+
+> myFunction(arr);
+[1,2,3]
+
+Uma função recebendo array argumento e retornando o primeiro indice do argumento.
+> function myFunction2(arg){
+	return arg[1];
+}
+
+> myFunction(arr);
+2
+
+Parâmetros com Objetos
+
+> var obj = {
+	propriedade: 'thalita',
+	curso: 	'jsnin',
+	ninja: true}
+
+> function myFunction(arg){
+  return arg;
+}
+
+> myfunction(obj);
+{	propriedade: 'thalita',
+	curso: 	'jsnin',
+	ninja: true}
+
+> myFunction(obj).propriedade;
+'thalita'
+
+> myFunction(obj).ninja;
+true
+
+-------------------------------
+
+> function myFunction2(arg){
+  return arg.curso;
+}
+
+myFunction2();
+error
+(pois não existe a propriedade curso na ausência de argumento)
+
+> myFunction2(obj);
+'js ninja'
+> obj.curso 
+'js ninja'
+
+------------------------------
+

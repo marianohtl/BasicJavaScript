@@ -1,0 +1,123 @@
+Extrura Léxica
+
+Conjunto de regras que define quais são e qual modo que iremos usar para escrever na linguagem.
+Ela vai dezer os níveis mais baixos da linguagem.
+Especifica detalhes:
+- nomear variáveis
+- nomear funções
+- tipos de caracteres que podemos usar
+- forma de criar comentários
+- como separar uma instrução de outra
+
+Ela nos dá toda base/estrutura do que se pode ou não usar no JavaScript
+
+Case Sensitive
+
+Diferencia maiúsculas de minúsculas.
+
+> var Animal = 'macaco'
+> var animal = 'cachorro'
+
+> animal == Animal
+false
+
+
+> ANIMAL
+ERROR
+--------------------------------
+COMENTÁRIOS
+
+Temos dois formatos.
+
+-De linha:	//
+
+-De bloco:	/**/
+
+> // a variável animal é igual a cachorro
+> var animal = 'cachorro'
+> animal
+'cachorro'
+
+Ele simplesmente ignora tudo que for escrito após o //.
+
+comentário de linha:
+// uma linha
+// duas linhas
+
+comentário de bloco:
+/* uma linha
+.. outra linha
+.. mais uma linha
+.. */
+
+/* uma linha também */
+
+-------------------------------
+LITERAIS
+Literais são valores que aparecem diretamente em um programa.
+Literais são valores que não mudam, valores que fazem parte do core do JavaScript.
+
+ex.
+
+12
+
+1.2
+
+'ninja'
+
+"ninja"
+ 
+true
+
+null
+
+{a: 1}
+
+[1, 2]
+
+Valores que retornam ele mesmo.
+
+> true
+true
+> 'ninja'
+'ninja'
+> 12
+12
+> {a:1}
+{a:1}
+
+Ele já existe na linguagem, não há nada que os cria.
+Os valores dos literais não mudam.
+
+--------------------------------
+Identificadores
+
+Identificadores são nomes.
+Normalmente usados para nomear variáveis ou nomear funções.
+
+- _ ou $
+- letras de a à z
+- letras de A à z
+
+Podem começar qual qualquer um destes símbolos acima.
+E podem conter:
+
+- digitos de 0 à 9
+
+
+- Qualquer caracter UNICODE
+
+(O JAVASCRIPT ELES SÃO ESCRITOS POR UM CONJUNTO DE CARACTERES UNICODES, OS CONUNTOS DE CARACTERES UNICODES NORMALMENTE EMGLOBAM A MAIORIA DOS TIPOS DE CARACTERES PARA A MAIORIA DAS LINGUAS EXISTENTES HOJE)
+
+> p (símbolo PI) = 3.14
+> p (símbolo PI)
+3.4
+
+NÃO DEVEMOS UTILIZAR OS ACARACTERES UNICODES.
+
+-------------------
+O JavaScript contém palavras reservadas.
+Palavras reservadas são palavras que o JavaScript separa, são identificadores de palavras chaves da própria linguagem.
+Coisas que são usadas dentro do JavaScript que não podemos usar para nomear variáveis ou funções.
+
+

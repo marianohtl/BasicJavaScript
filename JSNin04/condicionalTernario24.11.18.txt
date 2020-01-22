@@ -1,0 +1,25 @@
+Condicional Ternário:
+
+Ele substitui o if.
+Ele cria uma forma mais fácil, prática ou menor com o operador ternário.
+Teremos uma condição:
+
+condição ? true : false
+
+condição + interrogação + o resultado se for true : o resultado se for false
+
+> 1 === 2 ? true : false;
+false
+
+> if (1 ===2) {true;} else {false};
+false
+
+ACIMA TEMOS A MESMA COISA, PORÉM COM O OPERADOR
+TERNÁRIO TUDO FICA MAIS CLARO.
+
+> var pessoa = {sexo: 'Masculino'};
+>if (pessoa.sexo === 'Feminino') {sexo = 'a'};
+
+> var sexo = pessoa.sexo === 'Feminino' ? 'a' : 'o';
+
+> var carro = 'string' ? 'porta' : 'janela';

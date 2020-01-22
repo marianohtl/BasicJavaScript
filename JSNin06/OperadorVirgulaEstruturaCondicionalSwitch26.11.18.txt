@@ -1,0 +1,43 @@
+Operador Virgula e Estrutura Condicional Switch
+
+
+Operador Virgula
+
+A virgula vai separar algumas isntruções e vai juntar em uma única expressão
+Ele junta várias expressões em uma única expressão, e o JS avalia da esquerda para a
+direita
+
+var a, b= 2, c;
+
+No exemplo acima ele irá declarar primeiro o a como undefined, depois o b como o valor 3 e seguira declarando o c
+com undefined.
+
+
+Pode ser usado com funções também.
+No caso abaixo ele avaliará a função, e retornará o x.
+
+function myFunc(){
+var x = 0;
+return (x += 1 , x);
+}
+//return ++x;
+
+
+Estrutura Condicional Switch
+
+function myFinc(X){
+
+switch(x){
+	case 1:
+	console.log('x é 1');
+	break;
+	case 2:
+	console.log('x é 3');
+	break;
+	default:
+	console.log('x não é nem 1 nem 2');
+   }
+}
+
+(lembrando que ele usa o operador street equal === para validar, que testa o valor e o tipo)
+

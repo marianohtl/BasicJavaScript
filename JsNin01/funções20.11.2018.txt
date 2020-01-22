@@ -1,0 +1,63 @@
+Funções
+
+Blocos de código JavaScript nomeados, e que podem ser invocados usando o operador ()
+Podemos reutilizar o código atravéz de uma função.
+
+function nome(){}
+
+invocando função
+
+> nome()
+undefined
+
+> nome
+[Function: nome]
+
+A cada instrução que criamos colocamos o ponto e vírgula no final.
+> var x = 1;
+
+> function soma(){
+..x = x + 1
+..}
+
+>soma()
+
+> x
+2
+
+- Funções criam escopo.
+
+functon qualquer(){
+ var nome = thalita;
+}
+
+>> nome
+error
+
+A variável nome foi definida dentro da função, e as funções criam escopo, logo não conseguimos acessar a função por fora da função.
+O escopo da variável depende da função em que ela está inserida.
+Podemos acessar valores criados fora da função na função o contrário porém não é verdadeiro.
+
+- Funções podem retornar valores
+
+> function qualquer(){
+ var fernando;
+ return fernando;
+}
+
+> qualquer();
+'fernando'
+
+
+Ao chamar a função depois de declarada, tendo ela return, a função retorna o que foi definido.
+
+Funções também podem receber argumentos ou parâmetros.
+
+> function soma(x,y){
+.. return x + y;
+.. }
+
+> soma(1,2)
+3
+> soma(5,5)
+10

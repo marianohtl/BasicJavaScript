@@ -1,0 +1,37 @@
+Arrays - A Propriedade Length
+
+Em JavaScript arrays não existem.
+Arrays são objetos disfaçados.
+E como objetos eles tem propriedades e métodos.
+
+No JavaScript temos os builts objects, que tem as suas
+proprias propriedades e seus próprios métodos.
+
+O array é um tipo de objeto que tem suas propriedades e seus métodos.
+
+PROPRIEDADE
+length 
+Propriedade que mostra quantos elementos tem em um array.
+
+> var arr = ['thalita', null, true, {bola:azul}, function(){}];
+undefined
+> arr.length
+5
+
+------------------------------
+retornando array
+
+var qtd = arr.length;
+while(qtd > 0){
+	console.log(arr[--qtd]);
+}
+-----------------------
+retornando array
+
+var qtd = arr.length;
+while(qtd > 0){
+	console.log(arr[--qtd]);
+	if(qtd === 3){
+	console.log(arr[qtd].bola);
+     }
+}

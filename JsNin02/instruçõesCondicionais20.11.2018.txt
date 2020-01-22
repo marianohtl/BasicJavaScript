@@ -1,0 +1,87 @@
+INSTRUÇÕES CONDICIONAIS
+
+IF
+Intrução que nos dá um controle para definir ou tomar decisões do que queremos fazer, ou executar uma instrução fundamentada em alguma validação.
+
+> x 
+3
+> y 
+7
+
+> if (x === 3) {
+.. y = 3
+.. };
+
+( A ESTRUTURA DENTRO DO IF SEMPRE NOS RETORNARÁ UM VALOR BOLEANO, SE O VALOR RETORNAR TRUE ELE EXECUTA O BLOCO, DO CONTRÁRIO NÃO)
+
+> y 
+3
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+> x 
+3
+> y
+3
+> if (x === y && x === 3){
+... x = 5;
+... y = 3;
+};
+
+a condição retorna true logo 
+> x
+5
+> y
+2
+
+Podemos usar o operador ||
+
+if (x === 5 || y === 1){
+.. x = 1;
+.. y = 1;
+..}
+
+> x
+1
+> y
+1
+
+ELSE
+
+O else funciona como o senão, caso a condição não seja verdadeira, o else executa o bloco.
+
+> x
+1
+> y
+1
+if (x===2){
+.. y = 2;
+.. }else{
+.. y=10;
+..}
+
+Temos também o else if, este sere para validarmos mais um duas coisas.
+
+> x
+1
+> y
+10
+
+if ( x === 2 ){
+.. y = 2;
+.. }else if ( y ===3 ){
+.. x = 3;
+.. }else if( x === y ){
+.. x = 10;
+.. y = 100;
+.. }else{
+.. x = 0;
+.. y = 0;
+.. }
+
+> x
+0
+> y 
+0
+
+Podemos ter quantos if else quisermos.

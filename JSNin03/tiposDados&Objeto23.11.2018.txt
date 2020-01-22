@@ -1,0 +1,61 @@
+Tipos de Dados:
+
+- PRIMITIVOS
+number
+float
+string
+bolean
+null e undefined
+
+TIPOS DE OBJETO:
+Todos os outros tipos de dados são um tipo de objeto.
+
+O JavaScrip é uma linguagem orientada a objeto.
+
+Objeto é um conjunto de propriedade que recebem um nome e um valor, as prorpiedades podem ser
+um PRIMITIVO ou um outro Objeto.
+
+> {propriedade: 'valor'}
+
+> var objeto = {propriedade: 'valor', propriedade2: 10, propriedade3: true};
+>objeto
+{propriedade: 'valor', 
+propriedade2: 10, 
+propriedade3: true}
+
+Utilizamos o objeto para organizar os nossos dados (ordenar o código).
+Eles normalmente se referem a objetos da vida real.
+
+> var pessoa = {nome: 'Thalita, idade: 23, peso: 70, altura: 1.70};
+>pessoa
+{nome: 'Thalita, 
+idade: 23, 
+peso: 70, 
+altura: 1.70};
+> pessoa.nome
+'Thalita'
+> pessoa.idade
+23
+> pessoa.altura
+1.70
+
+> var carro = {cor: vermelho, motor: '2.0', portas: 4};
+> carro
+{cor: vermelho, 
+motor: '2.0', 
+portas: 4};
+
+>carro.cor
+vermelho
+> carro.portas
+4
+
+Ele pode receber um outro tipo de objeto.
+functions são objetos de 1ª classe, pois eles podem ser atribuídos a variáveis 
+ou a um objeto.
+
+CRIANDO UMA FUNÇÃO ANÔNIMA ( não é obrigatório uma função ter nome quando atribuído a uma variável)
+
+> var myvar = function(){ return 'variável my var';}
+> myvar()
+'variável myvar'

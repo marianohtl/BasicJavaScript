@@ -1,0 +1,72 @@
+Estrutura de Repetir While / Loop
+
+Estrutura While:
+
+var counter = 0;
+
+while(counter < 10){
+ console.log(counter);
+ counter++;
+}
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+O while irá avaliar a expressão passada, se a expressão for true 
+ele irá entrar na condição e irá executar as linhas de dentro, se for 
+o while vai ignorar e vai continuar o programa normalmente nas próximas linhas de código.
+
+A diferença das estruturas condicionais para as estruturas de looping, é que
+as estrutua de looping funciona enquanto o valor da expressão for verdadeiro.
+
+>!!0 
+false (valor falsy)
+
+> 0 === false
+false
+
+while(0){
+  console.log('zero');
+}
+
+Isso significa que se chegarmos no valor 0, ele ssai da instrução.
+
+while (counter > 0){
+	concole.log(conter--);
+}
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+var couter = 10;
+while(counter--){
+ console.log(counter);
+}
+
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
