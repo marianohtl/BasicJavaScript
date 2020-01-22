@@ -1,6 +1,0 @@
-git checkout master 
-ls -la (listar os desafios)
-git fetch upstream (faz a atualização)
-git merge upstream/master (download para atualizar)
-git checkout -b nome da branch (criar branch para desafio)
-

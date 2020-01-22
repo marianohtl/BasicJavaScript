@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style_idade_pm.css">
+    <title>Idade do Pai e da Mãe</title>
+</head>
+<body>
+    <section>
+        <h2>Qual a idade do seu pai? </h2>
+        <input type="text" name="idadepai" id="pai">
+        <h2>Qual a idade da sua mãe?</h2>
+        <input type="text" name="idademae" id="mae">
+        <article>
+            <button onclick="calcular()">CALCULAR</button>
+            <button type="reset" onclick="limpar()">LIMPAR</button>
+        </article>
+        
+        <div id="soma"></div>
+        <div id="media"></div>
+    </section>
+
+    <script>
+        function calcular(){
+            let pai = document.querySelector("input#pai").value
+            let mae = document.querySelector("input#mae").value
+            let soma = Number(pai) + Number(mae)
+            let media = soma /2
+            document.querySelector('div#soma').innerHTML = (`A soma das idades deles é ${soma}.`)
+            document.querySelector('div#media').innerHTML = (`A média das idades deles é ${media}.`)    
+        }
+
+        function limpar(){
+            document.querySelector("input#mae").value = ''
+            document.querySelector("input#pai").value = ''
+            document.querySelector("div#soma").innerHTML = ''
+            document.querySelector("div#media").innerHTML = ''
+        }
+    </script>
+</body>
+</html>

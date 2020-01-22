@@ -1,3 +1,0 @@
-propriedades, métodos, funções, usamos o método camel case
-
-Crianção de variáveis sempre são feitas no início da função.

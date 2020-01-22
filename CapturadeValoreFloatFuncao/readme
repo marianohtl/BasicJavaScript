@@ -1,0 +1,20 @@
+
+
+Captura de valores para uma variável.
+
+https://marianohtl.github.io/JsFirstSteps/CapturadeValoreFloatFuncao/
+
+Parsefloat()
+.replace()
+
+
+
+ dadoUm = parseFloat(frmDados.txtdado1.value.replace(",", "."));  >>> Converte o dado que está no value, do caminho frmDados>txtdado1 para float.
+
+
+Conversão para float com: Parsefloat
+
+
+.replace(',','.');  >>>   substitui as vírgulas digitadas para pontos (víngulas não são aceitas para números decimais, padrão americano)   
+ 
+ 

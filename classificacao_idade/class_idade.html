@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="classificacao_idade.css">
+    <title>Classificação de Idade</title>
+</head>
+<body>
+    <section>
+		<h2>Qual o seu nome?</h2>
+        <input type="text" name="nome" id="nome">
+        <h2>Qual é a sua idade?</h2>
+        <input type="text" name="numero" id="i">
+        <article>
+            <button onclick="classificar()">CLASSIFICAR</button>
+            <button type="reset" onclick="limpar()">LIMPAR</button>
+        </article>
+			<div id="name"></div>
+            <div id="class"></div>
+    </section>
+    <script>
+        function classificar(){
+            let n1 = document.querySelector('input#i').value
+            let name = document.querySelector('input#nome').value
+			document.querySelector("div#name").innerHTML = (name)
+            if(n1 >=0 && n1<=2){
+				document.querySelector("div#class").innerHTML = ( "Recém-nascido")
+			}else if(n1 >= 3 && n1 <= 11){
+				document.querySelector("div#class").innerHTML = ("Criança")
+			}else if(n1 >= 12 && n1 <= 19){
+				document.querySelector("div#class").innerHTML = ("Adolescente")
+			}else if(n1 >= 20 && n1 <= 60){
+				document.querySelector("div#class").innerHTML = ("Adulto")
+			}else if(n1 > 60){
+				document.querySelector("div#class").innerHTML = ("Idoso")
+			}else{
+                document.querySelector("div#class").innerHTML = ("Idade Inválida")
+            }
+        }
+		
+        function limpar(){
+            document.querySelector('input#nome').value = ''
+			document.querySelector('input#i').value = ''
+            document.querySelector('div#class').innerHTML = ''
+			document.querySelector('div#name').innerHTML = ''
+        }
+        
+    </script>
+</body>
+</html>

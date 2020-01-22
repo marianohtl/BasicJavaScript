@@ -1,0 +1,67 @@
+Array ou vetor é uma estrutura de dados indexada que pode armazenar múltiplos valores.
+Array não é banco de dados, é um tipos especial de variável (variável trabalham com a memória, banco de dados trabalham com armazenamento em disco).
+O Array armazena os dados como se fosse uma lista e cada ítem da lista tem um indetificados ao qual chamamos de índicem é pelo índice que recuperamos, adicionamos ou modificamos o ítem da lista
+O índice do Array começa sempre em 0 e o tamanho do Array é determinado pelo número de ítens na lista.
+Simplificando, Array ou vetor pode ser entendido como uma forma especial de trabalhar com as variáveis.
+
+	    PRIMEIRA		
+	     POSIÇÃO
+
+		0	1	2	3	<--  POSIÇÕES
+var frutas = ['banana','pera','melão','abacaxi'];	o tamanho deste Array é 4 
+
+					ELEMENTO
+					NA POSIÇÃO 3
+
+
+console.log(frutas[1]);
+>> pera
+
+console.log(frutas[0]);
+>> banana
+
+console.log(frutas.length);
+>> 4
+
+console.log(frutas);
+>> (4) ['banana','pera','melão','abacaxi'];
+0: 'banana'
+1: 'pera'
+2: 'melão'
+3: 'abacaxi'
+
+console.table(frutas);
+>> mostra uma tabela com os dados
+
+Atribuindo uma Variável.
+
+frutas[2] = caqui
+
+console.log(frutas);
+>> (4) ['banana','pera','caqui','abacaxi'];
+0: 'banana'
+1: 'pera'
+2: 'caqui'
+3: 'abacaxi'
+
+-----------------------------------------------------------------------------------
+Array Multidimensional - Vetor
+É um array de array.
+
+Um array de duas dimensões forma uma tabela.
+
+Os arrays podem ter três ou mais dimensões.
+Um array de três dimensões forma um cubo.
+
+ex.
+
+var boletim = [[7,9,3,5],[5,2,6,4]];
+console.log(boletim);
+(2) [Array(4), Array(4)]
+>0: (4) [7,9,3,5]
+>1: (4) [5,2,6,4]
+length: 2
+
+
+console.log(boletim[1][2]);
+>> 6

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nascimento.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nascimento</title>
+</head>
+<body>
+    <section>
+        <h2>Qual o ano atual?</h2>
+        <input type="text" name="ano_atual" id="anoa">
+        <h2>Qual o ano do seu nascimento?</h2>
+        <input type="text" name="ano_nasc" id="anon">
+
+        <article>
+            <button onclick="calcular()" id="calc">CALCULAR</button>
+            <button onclick="limpar()" id="limp">LIMPAR</button>
+        </article>
+        <div id="idade"></div>
+        <div id="semana"></div>
+    </section>
+
+    <script>
+    function calcular(){
+        let ano = document.querySelector('input#anoa').value
+        let nasc = document.querySelector('input#anon').value
+        let idade = Number(ano) - Number(nasc)
+        let semana = idade * 48
+        document.querySelector('div#idade').innerHTML = (`Sua idade é ${idade}.`)
+        document.querySelector('div#semana').innerHTML = (`Sua idade em semanas: ${semana}`)
+    }
+    function limpar(){
+        document.querySelector('input#anoa').value = ''
+        document.querySelector('input#anon').value = ''
+        document.querySelector('div#idade').innerHTML = ''
+        document.querySelector('div#semana').innerHTML = ''
+
+    }
+
+    </script>
+    
+</body>
+</html>

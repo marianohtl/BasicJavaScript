@@ -1,0 +1,23 @@
+body{
+  background-color: lemonchiffon;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+ margin-bottom: 40px;
+ font-size: 20pt;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+  margin-top: 25px;
+  width: 65px;
+  height: 30px;
+  background-color: beige;
+}

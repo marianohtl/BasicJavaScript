@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Média</title>
+</head>
+<body>
+    <section id="corpo">
+        <h1>Boletim Escolar</h1>
+<p>Informe o nome do aluno: <input type="text" name="" id="tnome"></p>
+<p>Informe a primeira nota: <input type="number" name="" id="tnum1"></p>
+<p>Informe a segunda nota: <input type="number" name="" id="tnum2"></p>
+<p>
+    <button onclick="media()">Calcular</button>
+    <button onclick="limpar()">Limpar</button>
+</p>
+
+<div id="res"></div>
+<div id="situacao"></div>
+</section>
+
+<style>
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(143,230,197);
+}
+
+section#corpo{
+    background: rgba(6,77,6);
+    color: azure;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+h1{
+    margin: 5px;
+}
+</style>
+
+<script>
+        function media(){
+            let nome = document.querySelector("input#tnome").value
+            let n1 = document.querySelector("input#tnum1").value
+            let n2 = document.querySelector("input#tnum2").value
+            let media = (Number(n1) + Number(n2))/2
+            if (media >= 7) {
+                document.querySelector('div#situacao').innerHTML= (`O aluno ${nome.toUpperCase()} está aprovado.`)
+            } else if(media >= 5 && media < 7 ){
+                document.querySelector('div#situacao').innerHTML= (`O aluno ${nome.toUpperCase()} está de recuperação.`)                
+            }else{
+                document.querySelector('div#situacao').innerHTML= (`O aluno ${nome.toUpperCase()} está de recuperação.`)              
+            }
+            
+            document.querySelector('div#res').innerHTML= (`A média de ${n1} e ${n2} é: ${media.toFixed(1)}`)
+        }
+
+        function limpar(){
+            if(document.getElementById('tnum1').value !='')
+            {
+                document.getElementById('tnum1').value = ''
+                document.getElementById('tnum2').value = ''
+                document.getElementById('tnome').value = ''
+                document.getElementById('res').innerHTML =''
+                document.getElementById('situacao').innerHTML =''
+            }
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+### CÓDIGO USADO NO PROJETO JOKENPÔ
+
+<form name="">
+<input type="radio" id="">Nome1
+<input type="radio" id="">Nome2
+<input type="radio" id="">Nome3
+</form>
+
+Aqui nós temos um problema, caso mais de um radio button seja selecionado todos ficarão marcados.
+Colocamo então uma propriedade name="", com referência igual para todos, e assim evitamos esse problema.
+
+<form name="">
+<input type="radio" name="grupo" id="">Nome1
+<input type="radio" name="grupo" id="">Nome2
+<input type="radio" name="grupo" id="">Nome3
+<p>
+<input type="button" value="" onclick="">
+</p>
+
+</form>
+<img src="" alt="">
+
+# Faz uma linha na página
+<hr>
+
+<script src=""></script>
+
+function x(){}
+
+if(){
+}else{
+}
+
+document.getElementById("x").checked
+(verifica se o radio button está preenchido)
+
+document.getElementById("x").src="";
+document.getElementById(x).innerHTML="";
+
+var randon = Math.floor(Math.random() * 3);
+switch(randon){
+case 0:
+break;
+
+case 1:
+break;
+
+case 2:
+break;
+}
+
+
+# if / else e suas extruturas
+
+if(condição){
+  //condição verdadeira
+}
+
+------------------------------
+
+if(condição){
+    //condição verdadeira
+}else{
+   //condição falsa
+}
+
+-------------------------------
+#encadeamento
+
+if(condição 1){
+    //condição 1 verdadeira
+} else if (condição 2){
+  //condição 2 verdadeira
+} else if (condição 3){
+  //condição 3 verdadeira
+} else if (condição 4) {
+  //condição 4 verdadeira
+} else {
+  //caso nenhuma condição seja verdadeira
+}
+
+--------------------------------
+
+if (document.getElementById("x").checked == true && randon) || (document.getElementById("x").checked == true && randon){
+}
