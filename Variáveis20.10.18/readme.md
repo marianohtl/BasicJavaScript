@@ -1,0 +1,90 @@
+
+
+
+
+JS = linguagem interpretada = tudo que se escreve irá ser interpretado
+(não há necessidade de interpretar)
+
+CNTRL + SHIFT + J -> ABRE O CONSOLE
+
+- MANIPULAR O DOM 
+- COMUNICAÇÃO ASSINCRONA COM SRV
+
+
+JS >>> Variáveis
+
+responsável por guardar nomes na memória
+
+formas de iniciar variáveis:
+var 
+let
+const
+
+DIFERENÇAS:
+escopo 
+permissão de redeclar ou não 
+
+Com variáveis podemos evitar repetições.
+
+Podemos crias variáveis diversas com o acréscimo da vírgula.
+
+
+ex.
+var sobrenome = 'Mariano', cidade = 'São Paulo';
+
+Podemos declarar variáveis sem valor:
+var catIndefinido
+// undefined
+
+NOME DE VARIÁVEIS
+
+Os nome podem iniciar com:
+>>> $
+>>> _
+>>> letras
+(podem conter números, mas não iniciar)
+
+CASE SENTIVE
+(maiúsculas e minúsculas se diferenciam)
+
+Existem palavras que são reservadas no JavaScript.
+Constuma-se utilizar uma técnica chamada CAMEL CASE ex.(abrirModal)
+
+//inválido
+var $nome;
+var function;
+var 1possuiNome;
+
+//válido
+var $selecionar;
+var _nome;
+var nome2;
+var possuiFaculdade;
+
+COMENTÁRIOS
+// e /**/
+
+HOSTING
+Quando definimos uma variável, ela é sempre movida para cima do código. Mesmo que o JavaScript execute linha por linha existe uma prioridade no seu código para as variáveis, porém o valor só é atribuído linha por linha.
+
+console.log(comida);
+var comida = Pizza
+// resposta undefined 
+
+PODEMOS ALTERAR VALORES DAS VARIÁVEIS CRIADAS COM VAR E COM LET.
+
+COM CONST NÃO PODEMOS MODIFICAR.
+
+FRASES (STRINGS)
+colocamos entre aspas sejam elas simples ou duplas
+
+CNTRL + A = SELECIONAR TUDO DA TELA
+
+CNTRL + ; = COMENTA O TRECHO SELECIONADO
+
+CNTRL + X (no final da linha do código) = CORTA UMA LINHA INTEIRA
+
+
+CNTRL + C (no final da linha do código) = COPIA A LINHA INTEIRA 
+
+
