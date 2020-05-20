@@ -1,0 +1,44 @@
+﻿@charset "UTF-8";
+
+from{ 
+	width:800px;
+	margin:auto;	
+}
+
+input,textarea {
+	font-family:verdana;
+	font-size:13px;
+}
+
+legend{
+	color:#FFF;
+	font-weight:bold;
+	font-size:13pt;
+	font-family:verdana;
+}
+
+fieldset#sexo{
+		color:#FFF;
+		width:180px;
+		font-family:verdana;
+		font-size:13px;
+}
+
+section#conosco p{
+	text-align:justify;	
+	color:#FFF
+}
+
+
+
+fieldset#usuario{
+	background:url("../imagens/icontato.png") no-repeat 95% 95%;
+}	
+
+fieldset#endereco{
+	background:url("../imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem{
+	background:url("../imagens/icone-mensagem.png") no-repeat 95% 95%;
+}

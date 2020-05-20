@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Aqui você irá encontrar..">
+	<meta name="keywords" content="jogos, video games,consoles,xbox, playstation,nintendo,games">
+
+	<title>GAMES</title>
+
+	<link rel="icon" href="imagens/favicon.icon">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_xbox.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_fotos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_videos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo_fale.css">
+
+</head>
+
+<body>
+
+	<div id="interfaces">
+		<header id="topo">
+
+			<img src="imagens/banner-topo.jpg" title="Logo Game" alt="Logo Game Over">
+
+			<nav id="menu">
+				<ul>
+
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#">CONSOLES</a>
+
+						<ul>
+							<li><a href="ps.html">PS</a></li>
+							<li><a href="xbox.html">XBOX</a></li>
+						</ul>
+
+					</li>
+					<li><a href="">GALERIAS</a>
+						<ul>
+							<li><a href="fotos.html">FOTOS</a></li>
+							<li><a href="video.html">VIDEOS</a></li>
+						</ul>
+					</li>
+
+					<li><a href="fale.html">FALE CONOSCO</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="banner-anime">
+
+			<img id="anime1" src="imagens/banner1.jpg" title="kratos" alt="God of War">
+			<img id="anime2" src="imagens/banner2.jpg" title="kratos" alt="God of War">
+
+		</section>
+
+		<section id="conosco">
+			<h1>Fale Conosco</h1>
+
+			<form>
+
+				<fieldset id="usuario">
+					<!-- conj de campos -->
+					<legend>Identificação do Usuário</legend> <!-- legenda -->
+
+					<p>
+						<label for="cNome">Nome:</label>
+						<input type="text" size="20" id="cNome" maxlength="20" placeholder="Nome completo" />
+					</p>
+
+					<p>
+						<label for="cSenha">Senha:</label>
+						<input type="password" size="8" id="cSenha" maxlength="8" placeholder="8 dígitos" />
+					</p>
+
+					<p>
+						<label for="cEmail">E-mail:</label>
+						<input type="email" size="35" id="cEmail" maxlength="35" placeholder="Digite seu e-mail" />
+					</p>
+
+					<fieldset id="sexo">
+
+						<legend>Sexo:</legend>
+
+						<input type="radio" id="cMasc" name="tSexo">
+						<label for="cMasc">Masculino</label>
+
+						<!--</br>-->
+
+						<input type="radio" id="cFem" name="tSexo">
+						<label for="cFem">Feminino</label>
+					</fieldset>
+
+					<p>
+						Data de Nascimento: <input type="date" id="cNasc" />
+					</p>
+
+				</fieldset>
+
+				<fieldset id="endereco">
+
+					<p>
+						<label for="cRua">Logradouro:</label>
+						<input type="text" id="cRua" size="30" maxlength="50" placeholder="Rua, Av, Trav,..." />
+					</p>
+
+					<p>
+						<label for="cNum">Número:</label>
+						<input type="number" id="cNum" min="0" max="9999" />
+					</p>
+
+					<p> <label for="cEst">Estado:</label>
+
+						<select id="cEst">
+
+						<optgroup label="Região Sudeste">
+							<option value="SP">São Paulo</option>
+							<option value="RJ">Rio de Janeior</option>
+							<option value="SP">Minas Gerais</option>
+							<option value="ES">Espírito Santo</option>
+						</optgroup>
+
+						<optgroup label="Região Sul">
+							<option value="sc" selected>Santa Catarina</option>
+							<option value="PR">Paraná</option>
+							<option value="RS">Rio Grande do Sul</option>
+						</optgroup>
+						</select>
+					</p>
+
+					<p>
+						<label for="cCid">Cidade:</label>
+						<input type="text" id="cCid" size="40" maxlength="40" placeholder="Sua Cidade" />
+					</p>
+
+				</fieldset>
+
+				<fieldset id="mensagem">
+
+					<legend>Mensagem do Usuário</legend>
+					<p>
+						<label for="cMsg">Mensagem:</label>
+						<textarea id="cMsg" cols="45" rows="5" placeholder="Deixe sua mensagem aqui"></textarea>
+					</p>
+
+				</fieldset>
+		</section>
+		</form>
+
+
+<footer id="rodape">		
+	<p>Desenvolvido para curso Técnico em informática de HTML5 e CSS3</p>
+		<p>
+
+			<a target="_blank" href="">
+				<img class="rede_social" src="imagens/logo-face.png" alt="Facebook" title="Facebook" />
+			</a>
+
+			<a target="_blank" href="">
+				<img class="rede_social" src="imagens/logo-twitter.png" alt="Twitter" title="Twitter" />
+			</a>
+
+			<a target="_blank" href="">
+				<img class="rede_social" src="imagens/logo-instagram.png" alt="Instagram" title="Instagram" />
+			</a>
+
+	</div>
+</footer>
+
+</body>
+
+</html>

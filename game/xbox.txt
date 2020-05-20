@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Aqui você irá encontrar..">
+<meta name="keywords" content="jogos, video games,consoles,xbox, playstation,nintendo,games">
+
+<title>GAMES</title>
+
+<link rel="icon" href="imagens/favicon.icon">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+
+<body>
+
+<div id="interfaces">
+<header id="topo">
+
+<img src="imagens/banner-topo.jpg" title="Logo Game" alt="Logo Game Over">
+
+<nav id="menu">
+	<ul>
+	
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="">CONSOLES</a>
+	
+		<ul>
+			<li><a href="ps.html">PS</a></li>
+			<li><a href="xbox.html">XBOX</a></li>
+		</ul>
+		
+	</li>	
+		<li><a href="">GALERIAS</a>
+			<ul>
+			<li><a href="fotos.html">FOTOS</a></li>
+			<li><a href="video.html">VIDEOS</a></li>
+			</ul>
+		</li>
+		
+	<li><a href="fale_conosco.html">FALE CONOSCO</a></li>
+	</ul>
+</nav>	
+</header>
+
+<section id="banner-anime">
+
+<img id="anime1"src="imagens/banner1.jpg" title="kratos" alt="God of War">
+<img id="anime2"src="imagens/banner2.jpg" title="kratos" alt="God of War">
+
+</section>
+
+Família Xbox!!!
+
+Em 2001 chegava ao mercado americano o Xbox, primeiro console da Microsoft, uma promessa que acabaria gerando um grande retorno para a empresa e teria sucessores garantidos e à altura do PlayStation, que no momento dominava o mercado.
+
+Em 2005, o Xbox 360, Uma grande vantagem de seus concorrentes foi o Kinect, introduzido em 2010. O lançamento mais recente o XBox One.
+
+[AQUI ENTRA LISTA NÃO ORDENADA]
+
+
+_____________Barra lateral_____________
+Outras Notícias
+PlayStation 4
+
+[AQUI ENTRA IMG - imagens/lateral-ps4.png]
+
+O sistema PlayStation 4 abre as portas para uma jornada incrível pelos novos mundos de imersão dos jogos e sua comunidade intensamente conectada. O PS4 coloca o jogador em primeiro lugar com uma seleção de lançamentos surpreendentes e mais de 180 jogos em desenvolvimento.
+
+Jogue os mais incríveis hits de primeira linha e jogos independentes inovadores no PS4. Inspirado pelo desenvolvedor, focado no jogador.
+
+
+
+
+<footer id="rodape">
+	  
+<p>Desenvolvido para curso Técnico em informática de HTML5 e CSS3</p>
+<p>
+
+<a target="_blank" href="">
+<img class= "rede_social" src= "imagens/logo-face.png" alt= "Facebook" title="Facebook"/>
+</a>
+
+<a target="_blank" href="">
+<img class= "rede_social" src= "imagens/logo-twitter.png" alt= "Twitter" title="Twitter"/>
+</a>
+
+<a target="_blank" href="">
+<img class= "rede_social" src= "imagens/logo-instagram.png" alt= "Instagram" title="Instagram"/>
+</a>
+
+</div>
+</body>
+</html>

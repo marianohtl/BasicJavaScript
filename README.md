@@ -1,6 +1,26 @@
-# BasicJavaScript
-Branches com material básico de JavaScript. (Cod3r, JSNinja, Origamid, Primeiros Passos com JavaSript)
+# web_js_senac
+HTM, CSS, JS ministrados no Senac
 
-Repositório para referência pessoal.
 
-O objetivo deste repositório é armazenar EM BRANCHES diferentes os exercícios de diversos cursos de uma forma mais compactada.
+https://marianohtl.github.io/web_js_senac/
+
+# Tabelas
+
+Layout em tabela, com o tema Linux.
+
+
+https://marianohtl.github.io/web_js_senac/tabela_linux/TABLES.html
+
+
+# site_senac
+
+Site não responsivo com o tema do senac.
+
+https://marianohtl.github.io/web_js_senac/site_senac/index.html
+
+
+# games
+
+Site não responsivo com o tema de games.
+
+https://marianohtl.github.io/web_js_senac/game/index.html

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style-cursos.css">
+    <link rel="stylesheet" href="contato.css">
+
+    <title>Cursos Livres</title>
+</head>
+
+<body>
+    <section id="container2">
+        <header class="menu">
+            <img class="logo" src="imagens/logo-senac.png" alt="Logo com os dizeres SENAC">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cursos.html">Cursos Livres</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                    <li><a href="_blank">Senac</a></li>
+                </ul>
+            </nav>
+        </header>
+            <img class="img-principal" src="imagens/topo_pos.jpg" alt="imagem referente aos cursos livres">
+            <main class="principal-contato">                
+                <form action="">
+                <fieldset id="usuario">
+                    <legend>Identificação do Usuário</legend>
+                    <p>
+                        <label for="cNome">Nome:</label>
+                        <input type="text" size="20" id="cNome" placeholder="Nome Completo">
+                    </p>
+
+                    <p>
+                        <label for="cSenha">Senha:</label>
+                        <input type="text" size="20" id="cSenha" placeholder="Senha">
+                    </p>
+                    
+                    <p>
+                        <label for="cMail">E-mail:</label>
+                        <input type="text" size="20" id="cMail" placeholder="E-mail">
+                    </p>
+                        
+                    
+                    <fieldset id="sexo">
+                    <legend>Sexo:</legend>
+                    <input type="radio" id="cMasc" checked="checked" name="group">
+                    <label for="cMasc">Masculino</label>
+                    </br>                
+                    <input type="radio" id="cFem" name="group">
+                    <label for="cFFem">Feminino</label>
+                    </fieldset>
+                    </p>
+
+                    <p>                    
+                        Data de Nascimento: <input type="date" id="cNasc">
+                    </p>     
+                    </fieldset>
+
+                    <fieldset id="endereco">
+                    <legend>Endereço do Usuário:</legend>
+                    <p>
+                        <label for="cRua">Logradouro:</label>
+                        <input type="text" id="cRua" size="30" maxlength="50">
+                    </p>
+                    <p>
+                        <label for="cNum">Número:</label>
+                        <input type="number" id="cNum" min="0" max="99999">
+                    </p>
+                    <p>
+                        <label for="cEst">Estado:</label>
+                        <select id="cEst" >
+                            <optgroup label="Região Sudeste">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="MG">Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="SC" selected>Santa Catarina</option>
+                                <option value="PR">Paraná</option>
+                                <option value="RS">Rio Grande do Suk </option>
+                            </optgroup>
+                            
+                        </select>
+                    </p>
+                    <p>
+                        <label for="cCid">Cidade:</label>
+                        <input type="text" id="cCid" size="40" maxlength="40"  placeholder="Sua Cidade"/>
+                    </p> 
+                    </fieldset>
+
+                    <fieldset id="mensagem">
+                        <legend>Mensagem do Usuário</legend>
+                        <p>
+                            <label for="cMsg">Mensagem:</label>
+                        </p>
+
+                        <p>
+                            <textarea id="cMsg" cols="45" rows="5" placeholder="Deixe sua menagem aqui."></textarea>
+                        </p>
+                    </fieldset>
+                </form>
+            </main>
+
+        <footer>
+            <p class="footer-text">
+                Desenvolvido para curso de HTML5 e CSS3 - Senac Tatuapé
+            </p>
+            <p class="footer-text" id="pe">
+                <a href="">Facebook</a>|
+                <a href="">Twitter</a>|
+                <a href="">Instagram</a>
+            </p>
+        </footer>
+
+    </section>
+</body>
+</html>

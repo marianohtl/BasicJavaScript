@@ -1,0 +1,69 @@
+﻿@charset "UFT -8";
+
+section#chamada{
+	
+	display:block;
+	width:750px;
+	float:left;
+	padding:10px;
+	margin:5px auto 0px auto;	
+	border-right:2px solid #DDA520;
+}
+
+h1{
+	text-align:center;
+	color:gold;
+	font-family:verdana;
+	font-size:1.5vw;
+	margin:2px;
+	padding:5px;	
+}
+
+table{ 
+	margin:0px auto 0px auto;
+	border:none;	
+}
+
+td{padding: 3px 3px 0px 3px}
+
+table img{
+	display:block;
+	margin:auto;
+	width:auto;
+	height:auto;	
+}
+
+aside#lateral{
+	display:block;
+	width:370px;
+	float:right;
+	padding:5px;
+	margin: 5px 20px 0px 0px;	
+}
+
+h2{
+	text-align:center;
+	color:gold;
+	font-family:verdana;
+	font-size:1.5vw;
+	margin:5px;
+	padding:5px;	
+}
+.img_lateral{
+	 display:block;
+	 margin:auto;
+	 width:auto;
+	 height:auto; 
+ }
+ 
+ div#youtuber{
+	 display:block;
+	 left:0px;	 
+ }
+ 
+ iframe{
+	 /* padding:5px 0px 0px 25px;	  */
+	 margin:-20px 0px 0px 35px;
+ }
+
+

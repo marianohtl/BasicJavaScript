@@ -1,0 +1,47 @@
+
+#container2{
+    background-color: #FFF;
+    width: 1000px;
+    height: 920px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px rgba(205, 205, 205, 0.8);
+}
+
+.principal-contato{
+    background-color: #FFF;
+    width: 1000px;
+    height: 700px;
+}
+
+form{
+    margin: auto;
+    width: 800px;
+}
+
+input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+legend{
+    color: #000080;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset#sexo{
+    width: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+fieldset#usuario{
+    background:url("imagens/icontato.png") no-repeat 95% 95%;
+}
+fieldset#endereco{
+    background:url("imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+fieldset#mensagem{
+    background:url("imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
